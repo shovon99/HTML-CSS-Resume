@@ -4,10 +4,13 @@
 </head>
 
 <body>
-  <div>
-    <img src="image.jpg" width="170">
+  <div class="img">
+    <img src="image.jpg" width="160">
+  </div>
+  
+  <div class="info">
     <h2> Hasib Ul Sakib </h2>
-      <p>Phone: 01733331568<br>
+      <p id="infoText">Phone: 01733331568<br>
         Email: hasib99@live.com<br>
         Address: Block-A, Bashundhara R/A, Dhaka, Bangladesh</p>
     <br>
@@ -15,8 +18,8 @@
   
   <hr>
 
-  <div>
-    <p>
+  <div class="intro">
+    <p id="introText">
       Love Computers and
       <i>want to become android and web developer</i>.<br>
       Patient and love coding
@@ -28,10 +31,10 @@
   
   <hr>
 
-  <div>
+  <div class="education">
     <p><strong>Educational Qualities:</strong></p>
     
-    <table>
+    <table class="eduTable">
       <thead>
         <tr>
           <th>Degree</th>
@@ -43,36 +46,38 @@
         
       </thead>
 
-      <tbody>
+      <tbody id="eduTableContent">
         <tr>
-          <td>SSC</td>
-          <td>2010</td>
-          <td>2012</td>
-          <td>Pabna Cadet College</td>
-          <td>GPA 5.00</td>
+          <td align="center">SSC</td>
+          <td align="center">2010</td>
+          <td align="center">2012</td>
+          <td align="center">Pabna Cadet College</td>
+          <td align="center">GPA 5.00</td>
         </tr>
 
         <tr>
-          <td>HSC</td>
-          <td>2012</td>
-          <td>2014</td>
-          <td>Pabna Cadet College</td>
-          <td>GPA 5.00</td>
+          <td align="center">HSC</td>
+          <td align="center">2012</td>
+          <td align="center">2014</td>
+          <td align="center">Pabna Cadet College</td>
+          <td align="center">GPA 5.00</td>
         </tr>
 
         <tr>
-          <td>BSC</td>
-          <td>2015</td>
-          <td>2018</td>
-          <td>Independent Univerity, Bangladesh(IUB)</td>
-          <td>not defined</td>
+          <td align="center">BSC</td>
+          <td align="center">2015</td>
+          <td align="center">2018</td>
+          <td align="center">Independent Univerity, Bangladesh(IUB)</td>
+          <td align="center">not defined</td>
         </tr>
 
       </tbody>
     </table>
-
-    <p><strong>Skills:</strong></p>
-    <ul>
+  </div>
+  
+  <div class="skills">
+    <p id="skillText"><strong>Skills:</strong></p>
+    <ul id="skillList">
       <li>
         Programming Languages known: C++, Java, Python, C#, SQL.
       </li>
@@ -85,12 +90,15 @@
     </ul>
   </div>
 
-  <div>
+  <div class="follow">
   
+    <p><strong>Follow me on these:</strong></P>
+    
     <p> 
-
-      <strong>Follow me on these:</strong>
       <a target="_blank" href="https://www.facebook.com/hasib1568"><img src="fb.png" width="20" border="2"></a>
+    </p>
+    
+    <p>
       <a target="_blank" href="https://twitter.com/Shovon_00"><img src="tt.png" width="20" height="20" border="2"></a>
     
     </p>
@@ -100,8 +108,8 @@
 
   <hr>
 
-  <div>
-    <form>
+  <div class="contactMe">
+    <form id="contactMeForm">
       <p>Contact me through the following:</p>
       <p>Your Full Name: <input type="text"  name="fn"></p>
       <p>Email: <input type="Email" name="em"></p>
