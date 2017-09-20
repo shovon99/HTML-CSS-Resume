@@ -1,8 +1,20 @@
 /* Your CSS styles go here */
+@font-face
+{
 
-.img {
-	color: red;
 }
-h2 {
-	color: black;
+.imgSource
+{
+	border: 7px;
+}
+.resumeContent {
+	background-color: lightgray;
+}
+h1 {
+	border: 6px;
+	background-color: snow;
+	border-style: outset;
+}
+h1:hover {
+	background-color: mistyrose;
 }
