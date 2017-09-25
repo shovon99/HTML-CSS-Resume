@@ -28,6 +28,7 @@ h1 {
 	margin: 0 auto; 
 
 }
+
 #img
 {
 	width: 200px;
@@ -89,6 +90,9 @@ h1 {
 	position: relative;
 	top: -100px;
 	*/
+}
+#mouseimage {
+	width: 60px;
 }
 #Head1 {
 	color: white;
@@ -352,4 +356,208 @@ input[type=submit]:hover {
 
 ::-webkit-input-placeholder {
 	color: black;
+}
+
+
+@media (max-width: 476px) {
+		.resumeContent{
+		width: 90%;
+		background-image: url("images/backImage2.jpg");
+		margin: 0 auto; 
+
+	}
+	#h2Name
+	{
+		font-size: 35px;
+		width: 75%;
+		
+		font-family: 'Philosopher', sans-serif;
+		
+	}
+	#name {
+		z-index: 1;
+		background-color: none;
+		clear: both;
+		position: relative;
+		top: 0px;
+		/*
+		float: left;
+		position: relative;
+		top: 0px;
+		*/
+		
+	}
+	#mouseimage {
+		width: 35px;
+	}
+	#img
+	{
+		width: 130px;
+		height: 130px;
+		border: 2px #04284C solid;
+		border-radius: 10%;
+		z-index: 2;
+		position: relative;
+		top: 0px;
+		/*
+		border-style: dotted;
+		padding-top: 10px;
+		float: right;
+		background-blend-mode: color-dodge;
+		position: relative;
+		left: 400px;
+		top: 50px;
+
+		*/
+		padding: 5px;
+		
+		
+
+
+	}
+	#img:hover{
+		opacity: .7;
+	}
+	#imgSource {
+		border-radius: 10%;
+		width: 130px;
+	}
+
+}
+
+@media (max-width: 575px) and (min-width: 477px)
+{
+	.resumeContent{
+		width: 90%;
+		background-image: url("images/backImage2.jpg");
+		margin: 0 auto; 
+
+	}
+	#h2Name
+	{
+		font-size: 35px;
+		width: 75%;
+		
+		font-family: 'Philosopher', sans-serif;
+		
+	}
+	#name {
+		z-index: 1;
+		background-color: none;
+		clear: both;
+		position: relative;
+		top: 0px;
+		/*
+		float: left;
+		position: relative;
+		top: 0px;
+		*/
+		
+	}
+	#mouseimage {
+		width: 35px;
+	}
+	#img
+	{
+		width: 200px;
+		height: 200px;
+		border: 2px #04284C solid;
+		border-radius: 10%;
+		z-index: 2;
+		position: relative;
+		top: 0px;
+		/*
+		border-style: dotted;
+		padding-top: 10px;
+		float: right;
+		background-blend-mode: color-dodge;
+		position: relative;
+		left: 400px;
+		top: 50px;
+
+		*/
+		padding: 5px;
+		
+		
+
+
+	}
+	#img:hover{
+		opacity: .7;
+	}
+	#imgSource {
+		border-radius: 10%;
+		width: 200px;
+	}
+
+
+
+}
+
+
+@media (max-width: 800px) and (min-width: 576px)
+{
+	.resumeContent{
+		width: 90%;
+		background-image: url("images/backImage2.jpg");
+		margin: 0 auto; 
+
+	}
+	#h2Name
+	{
+		font-size: 50px;
+		width: 75%;
+		
+		font-family: 'Philosopher', sans-serif;
+		
+	}
+	#name {
+		z-index: 1;
+		background-color: none;
+		clear: both;
+		position: relative;
+		top: 0px;
+		/*
+		float: left;
+		position: relative;
+		top: 0px;
+		*/
+		
+	}
+	#mouseimage {
+		width: 35px;
+	}
+	#img
+	{
+		width: 200px;
+		height: 200px;
+		border: 2px #04284C solid;
+		border-radius: 10%;
+		z-index: 2;
+		position: relative;
+		top: 0px;
+		/*
+		border-style: dotted;
+		padding-top: 10px;
+		float: right;
+		background-blend-mode: color-dodge;
+		position: relative;
+		left: 400px;
+		top: 50px;
+
+		*/
+		padding: 5px;
+		
+		
+
+
+	}
+	#img:hover{
+		opacity: .7;
+	}
+	#imgSource {
+		border-radius: 10%;
+		width: 200px;
+	}
+
 }
